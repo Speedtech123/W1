@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue" >
+    <center><h1>Course Registration Form</h1></center>
+    <label for="name">Enter the name</label><br>
+    <input type="text"><br><br>
+    <label for="password">Enter the password</label><br>
+    <input type="password" name="" id=""><br><br>
+    <label for="course">Enter the type of courses</label>
+    <input type="checkbox" name="" id=""><label for="Basic">Basic</label>
+    <input type="checkbox" name="" id=""><label for="">Advance</label>
+    <input type="checkbox" name="" id=""><label for="">Both</label><br><br>
+    <label for="">Enter the mode of payment</label>
+    <input type="radio" name="" id=""><label for="Full payment">Full payment</label>
+    <input type="radio" name="" id=""><label for="">Instalment</label><br><br>
+    <label for="">Select the courses</label>
+    <select name="" id="">
+        <option value="">C</option>
+        <option value="">Core Java</option>
+        <option value="">Advance Java</option>
+    </select><br><br>
+    <label for="feedback">Enter your feedback about our Institution</label><textarea name="" id="" rows="7" cols="35"  placeholder="enter your feedback "></textarea><br><br>
+    <input type="submit" value="Click to submit">   <input type="reset" value="reset">
+</body>
+</html>
